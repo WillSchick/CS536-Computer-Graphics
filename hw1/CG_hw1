@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Run our makefile (silently)
+make -s
+
+# Run Java program
+java CG_hw1 $@
